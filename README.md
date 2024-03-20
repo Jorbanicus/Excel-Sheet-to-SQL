@@ -16,6 +16,7 @@ This Python script reads a CSV file, cleans it up, and converts it into a series
 ```python
 fname = "path_to_your_input_file.csv"
 output_fname = 'path_to_your_output_file.csv'
+```
 
 This script performs the following steps:
 

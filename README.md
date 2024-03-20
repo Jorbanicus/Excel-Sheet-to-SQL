@@ -28,3 +28,10 @@ This script performs the following steps:
 6. Generates SQL INSERT statements for each row in the DataFrame and writes them to an output SQL file.
 7. Cleans up the temporary CSV file.
 8. The output is a SQL file with INSERT statements that can be run against a SQL database to insert the data from the CSV file.
+
+
+Input:
+![Capture](./Capture.JPG)
+
+Output:
+![CaptureSQL](./CaptureSQL.JPG)

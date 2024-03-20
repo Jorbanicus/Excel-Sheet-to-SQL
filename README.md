@@ -20,11 +20,11 @@ output_fname = 'path_to_your_output_file.csv'
 
 This script performs the following steps:
 
-Removes trailing whitespace from each line in the input CSV file and writes the cleaned lines to a temporary CSV file.
-Reads the first line of the temporary CSV file to get the column names.
-Strips trailing commas and whitespace from string columns in the DataFrame.
-Attempts to convert string columns to datetime columns, if possible.
-Writes the cleaned DataFrame back to the temporary CSV file.
-Generates SQL INSERT statements for each row in the DataFrame and writes them to an output SQL file.
-Cleans up the temporary CSV file.
-The output is a SQL file with INSERT statements that can be run against a SQL database to insert the data from the CSV file.
+1. Removes trailing whitespace from each line in the input CSV file and writes the cleaned lines to a temporary CSV file.
+2. Reads the first line of the temporary CSV file to get the column names.
+3. Strips trailing commas and whitespace from string columns in the DataFrame.
+4. Attempts to convert string columns to datetime columns, if possible.
+5. Writes the cleaned DataFrame back to the temporary CSV file.
+6. Generates SQL INSERT statements for each row in the DataFrame and writes them to an output SQL file.
+7. Cleans up the temporary CSV file.
+8. The output is a SQL file with INSERT statements that can be run against a SQL database to insert the data from the CSV file.
